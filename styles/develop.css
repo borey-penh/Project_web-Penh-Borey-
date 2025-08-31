@@ -271,3 +271,8 @@ button:hover {
     margin: 5px 0;
 }
 
+.button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
