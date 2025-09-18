@@ -21,35 +21,43 @@
             </div>
         </div>
         <div class="contact">
-            <div class="container">
+            <div class="contact-container">
+        <!-- Left form -->
+                <div class="contact-form">
                 <h1>Contact Us</h1>
+                <p>We’d love to hear from you! Send us a message and we’ll get back soon.</p>
                 <form>
-                    <input type="text" id="name" placeholder="Username" required><br>
-                    <input type="email" id="email" placeholder="Email" required><br>
-                    <textarea id="message" placeholder="Write your message here..." required></textarea><br>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
                     <button type="submit">Send Message</button>
                 </form>
-                <div class="info">
-                    <h2>Our Contact Information</h2>
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                            mail
-                        </span>
-                        <P>support@example.com</P>
-                    </div>
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                        phone_in_talk
-                        </span>
-                        <p>+855 12 345 678</p>
-                    </div>
-                    <div class="icon">
-                        <span class="material-symbols-outlined">
-                        home_pin
-                        </span>
-                        <p>Phnom Penh, Cambodia</p>
-                    </div>
-                    
+                </div>
+
+                <!-- Right info -->
+                <div class="contact-info">
+                <div class="info-item">
+                    <span>📍</span>
+                    <p>123 Street, Phnom Penh, Cambodia</p>
+                </div>
+                <div class="info-item">
+                    <span>☎</span>
+                    <p>+855 12 345 678</p>
+                </div>
+                <div class="info-item">
+                    <span>✉</span>
+                    <p>hello@cycleway.com</p>
+                </div>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6898734931547!2d104.888535!3d11.556374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095162c1bbd78f%3A0xb8a18cdfe2e60b99!2sPhnom%20Penh!5e0!3m2!1sen!2skh!4v1694379980000!5m2!1sen!2skh" 
+                    allowfullscreen="" loading="lazy">
+                </iframe>
                 </div>
             </div>
         </div>
