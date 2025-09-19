@@ -461,14 +461,13 @@ button:hover {
   }
  
   .b-ele {
-    width: 80vw;
-    height: auto;
+    width: 20vw;
+    height: 40vh;
   }
-
   .bikes {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     gap: 20px;
+
   }
 
   .contact .container {
@@ -488,7 +487,6 @@ button:hover {
     flex-direction: row;
     align-items: center;
     text-align: center;
-
     width: 90%;
   }
   .here{
@@ -504,6 +502,7 @@ button:hover {
     margin: 10px;
     width: 120px;
   }
+  
 }
 
 /* Tablet and small desktop */
@@ -634,14 +633,42 @@ button:hover {
     gap: 10px;
     font-size: 16px;
   }
-
+  .pd h1{
+    font-size: 10px;
+  }
+  .pd span{
+    font-size: 10px;
+  }
+  .product{
+    flex-direction: row;
+    gap: 10px;
+  }
+  .pd{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
+  .pd img{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+  }
   .box h1 {
     font-size: 1.5vh;
     width: 80vw;
     text-align: center;
   }
-
-  .button, .button4, .button2 {
+  .box div img{
+    width: 200px;
+    height: 200px;
+    display: block;   
+    margin: 20px auto 20px 50px;
+  }
+  .button2 {
+    font-size: 8px;
+  }
+  .button, .button4{
     font-size: 1.5vh;
     height: auto;
   }
@@ -658,7 +685,6 @@ button:hover {
 
   .promise {
     padding: 20px;
-    text-align: center;
     height: auto;
   }
 
@@ -666,24 +692,55 @@ button:hover {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
+    padding:0;
   }
   .here{
     font-size: 1.2vh;
   }
   .pay img {
-    width: 4vw;
-    height: 4vh;
+    width: 2vw;
+    height: 2vh;
     margin: 5px;
   }
+  .Mission{
+    flex-direction: row;              
+    gap: 8px;               
+  }
   .Mission div {
-    width: 32%;
-    height: auto;
-    margin: 0 20px;
+    width: 100px;
+    height: 200px;
+    font-size: 8px;
+    margin-left: 0px;
   }
   .Mission div img{
     margin: 10px;
-    width: 120px;
+    width: 80px;
+    height: 100px;
+  }
+  .bikes{
+    flex-direction: row;
+    gap: 20px;
+  }
+  .para{
+    padding-left: 10px;
+  }
+  .b-ele img{
+    height: 200px; 
+  
+  }
+  .pd2 h1{
+    font-size: 20px;
+  }
+  .pd3 img{
+    width: 100px;
+  }
+  .pd3{
+    font-size: 10px;
+    flex-direction: row;
+  }
+  .about img{
+    margin-top: 100px;
   }
 }
 
